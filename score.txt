@@ -1,0 +1,23 @@
+Normal: 16649
+With base pattern: 16409
+With if stmt simplification: 14705
+With simplify istore : 14052
+With unreacheable if stmt detection: 13868 // Not so usefull
+With remove extra if: 13798 // Really not helpfull :/
+With restructure field assignment for objects: 13708 // wtf
+With restructure field assignment for strings and ints : 13648 //So useless
+With restructure field assignment for old vars : 13618 //So useless
+Added another case to simplify the if: 13202
+With negative increment: 13172
+With simplify zero and null comparison: 13145
+With simplify null comp 2: 12829
+With remove unreacheable if 2 :12775
+with remove extra ifeq: 12561
+with remove dead label: 12525
+with remove code after return: 12347
+with remove extra goto before return: 12301
+with simlify constant string load: 12121
+with remove useless goto: 11986
+With restructure field assignment for null obj : 11974 //just sad
+With simplified [ai]store [ai]load: 11949
+With removed consecutive labels: 11999
